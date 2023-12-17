@@ -18,7 +18,7 @@ interface InputProps {
 const ProjectDetails : React.FC<InputProps> = ({title,type,githubLink,websitelink,imageUrl ,techstack,info , videoUrl }) => {
   return (
    
-    <article className='w-full flex items-center justify-between rounded-3xl border border-solid border-black bg-white shadow-2xl p-12'>
+    <article className='w-full flex flex-col lg:flex-row items-center justify-between rounded-3xl border border-solid border-black bg-white shadow-2xl p-6 lg:p-12'>
         <Link href={websitelink} target='_blank' className='w-1/2 cursor-pointer overflow-hidden rounded-lg '>
         {imageUrl ? (
         <img src={imageUrl} className="w-full h-auto hover:" alt={title} />

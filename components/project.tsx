@@ -3,11 +3,12 @@ import ProjectDetails from './projectdetails'
 
 const Project = () => {
   return (
-        <main className='w-full mb-16 flex flex-col items-center justify-center'>
+    <main className='w-full mb-16 flex flex-col items-center justify-center'>
 
-            <div className='px-14 grid grid-cols-12 gap-24'>
+    <div className='px-4 sm:px-6 lg:px-8 grid grid-cols-12 gap-4 sm:gap-8'>
 
-            <div className='col-span-12'>
+        <div className='col-span-12 sm:col-span-6 lg:col-span-4 xl:col-span-3'>
+       
                     <ProjectDetails
                         title='Stremify Video Streaming Service'
                         type='Web Application'
@@ -22,7 +23,8 @@ const Project = () => {
             </div>
 
 
-            <div className='col-span-12'>
+            <div className='col-span-12 sm:col-span-6 lg:col-span-4 xl:col-span-3'>
+       
                     <ProjectDetails
                         title='Paints Andriod App'
                         type='Android Application'
@@ -35,7 +37,8 @@ const Project = () => {
                     
             </div>
 
-            <div className='col-span-12'>
+            <div className='col-span-12 sm:col-span-6 lg:col-span-4 xl:col-span-3'>
+       
                     <ProjectDetails
                         title='A Personal portfolio Website'
                         type='Portfolio Website'
@@ -48,7 +51,8 @@ const Project = () => {
                     
             </div>
 
-            <div className='col-span-12'>
+            <div className='col-span-12 sm:col-span-6 lg:col-span-4 xl:col-span-3'>
+       
                     <ProjectDetails
                         title='A Simple portfolio Website'
                         type='Portfolio Website'
@@ -60,7 +64,8 @@ const Project = () => {
                     />     
             </div>
 
-            <div className='col-span-12'>
+            <div className='col-span-12 sm:col-span-6 lg:col-span-4 xl:col-span-3'>
+       
                     <ProjectDetails
                         title='BlackJack Game With SFML(C++)'
                         type='Fun Game'
