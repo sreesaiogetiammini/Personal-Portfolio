@@ -34,9 +34,9 @@ const Project = () => {
           <ProjectDetails
             title="A Personal portfolio Website"
             type="Portfolio Website"
-            githubLink="https://web.physics.utah.edu/~deemyad/#"
+            githubLink="/"
             imageUrl="/personalportfolio.png"
-            websitelink="https://web.physics.utah.edu/~deemyad/#"
+            websitelink="/"
             techstack="Next.js | Tailwind CSS | TypeScript "
             info="A professional portfolio website using Next JS,  and Styled-components. It has smooth page transitions, cool background effects, unique design and it is mobile responsive."
           />
