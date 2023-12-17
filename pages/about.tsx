@@ -15,7 +15,6 @@ export default function About() {
     <div className='pt-8'>
         <Footer/>
     </div>
-   
     </main>
   )
 }

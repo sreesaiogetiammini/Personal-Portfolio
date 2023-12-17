@@ -15,6 +15,9 @@ const HomePage = () => {
             <Link href='/SreeSai_SDE.pdf' target='_blank' className='bg-black text-white flex items-center font-bold p-2.5 px-6 rounded mt-2 lg:mt-0 lg:ml-4 hover:bg-white hover:text-black hover:border-solid hover:border hover:border-black'>
                 Resume
             </Link>
+            <Link href='tel:+13854612547' target='_blank' className='bg-black text-white flex items-center font-bold p-2.5 px-6 rounded mt-2 lg:mt-0 lg:ml-4 hover:bg-white hover:text-black hover:border-solid hover:border hover:border-black'>
+                Contact Me
+            </Link>
         </div>
     </div>
 
