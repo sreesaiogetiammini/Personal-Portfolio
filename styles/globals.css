@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#__next{
+  @apply h-full
+}
+
+html{
+  @apply h-full
+}
+
+
+body 
+{
+    max-height: 100vh;
+  }
+
+  main {
+    overflow-y: scroll;
+  }

@@ -12,7 +12,7 @@ const Project = () => {
                         title='Stremify Video Streaming Service'
                         type='Web Application'
                         githubLink='https://github.com/sreesaiogetiammini/CapstoneProject.git'
-                        videoUrl='/Final.mp4'
+                        imageUrl='/stremify.png'
                         websitelink='https://sharestreamify.vercel.app/'
                         techstack='Node.js | Next.js | Tailwind CSS | TypeScript | MongoDb Cloud | Prisma |NextApi'
                         info='Developed a cross-platform video streaming platform where users can gift movies to Friends/Family with Next.js and React to ensure a consistent user experience on web and mobile interfaces. To efficiently manage user data, video content, and streaming metadata, I implemented Prisma as the database 
