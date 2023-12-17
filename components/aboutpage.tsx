@@ -19,6 +19,7 @@ const skills = [
 
 const AboutPage = () => {
   return (
+    
     <div className='w-full h-full overflow-auto flex flex-col items-center px-6'>
       <TypeAnimation
       sequence={[
@@ -32,15 +33,15 @@ const AboutPage = () => {
         'Confident leader, assertive strength',
         1000
       ]}
+      className="text-6xl inline-block"
       wrapper="span"
       speed={50}
-      style={{ fontSize: '6em', display: 'inline-block'  }}
       repeat={Infinity}
       />
 
-    <div className='grid w-full grid-cols-6 gap-16'>
-      <div className='col-span-3 flex flex-col items-start justify-start'>
-        <h2 className='mb-4 text-lg font-bold uppercase text-black/75 text-center'>Life Story</h2>
+<div className='grid w-full grid-cols-1 md:grid-cols-6 gap-4 md:gap-16 pt-6'>
+<div className='col-span-1 md:col-span-3 flex flex-col items-start justify-start'>
+<h2 className='mb-4 text-lg md:text-xl font-bold uppercase text-black/75 text-center'>Life Story</h2>
         <p className='font-medium text-justify'>
         My journey into the world of software engineering has been marked by an unconventional path, driven by determination, self-motivation, and a passion for excellence. Despite holding a bachelor's degree in Bio Technology, my interest for software development led me to delve into self-study, exploring programming basics and various computer science subjects. This commitment opened doors, and during my final year of bachelor's studies, I secured a position as a System Engineer at Infosys. In this role, I underwent rigorous training as a Test Analyst, specializing in Manual Testing and UI Automation testing using Selenium. Over two years, I honed my skills in Whitebox, Blackbox, and Integration Testing, while also mastering API Automation using the REST Assured Java Library.
         </p>
@@ -51,11 +52,12 @@ const AboutPage = () => {
         To bridge the gap between my aspirations and skills, I embarked on a transformative path by pursuing a Master's Degree in Software Development at the University of Utah. Throughout three semesters of intensive coursework, I cultivated a robust understanding of fundamental software engineering concepts. My ultimate goal is to expand my expertise into the realm of problem analysis and contribute to all stages of business development within a software organization. I am excited about the opportunity to leverage my unique background and skills to drive innovation and excellence.
         </p>
       </div>
-      <div className='col-span-3 flex flex-col items-start justify-start'>
-        <h2 className='mb-4 text-lg font-bold uppercase text-black/75 text-center'>Skills</h2>
-        <div className="grid grid-cols-4 gap-4">
+      <div className='col-span-1 md:col-span-3 flex flex-col items-start justify-start'>
+      <h2 className='mb-4 text-lg md:text-xl font-bold uppercase text-black/75 text-center'>Skills</h2>
+      <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+
         {skills.map((skill, index) => (
-          <div key={index} className="w-full p-4 bg-gray-200 text-black rounded hover:bg-black hover:text-white">
+           <div key={index} className="w-full p-2 md:p-4 bg-gray-200 text-black rounded hover:bg-black hover:text-white">
             <p>{skill}</p>
           </div>
         ))}
@@ -64,9 +66,9 @@ const AboutPage = () => {
     </div>
     
 
-    <div className='grid w-full grid-cols-6 gap-16 pt-12'>
-      <div className='col-span-3 flex flex-col items-start justify-start'>
-        <h2 className='mb-4 text-lg font-bold uppercase text-black/75 text-center'>Experience</h2>
+    <div className='grid w-full grid-cols-1 md:grid-cols-6 gap-4 md:gap-16 pt-6'>
+    <div className='col-span-1 md:col-span-3 flex flex-col items-start justify-start'>
+     <h2 className='mb-4 text-lg md:text-xl font-bold uppercase text-black/75 text-center'>Experience</h2>
         <div className='w-full mx-auto relative'>
         <ul>
         <ExperienceDetails 
@@ -90,7 +92,7 @@ const AboutPage = () => {
         </div>
 
       </div>
-      <div className='col-span-3 flex flex-col items-start justify-start'>
+      <div className='col-span-3 flex flex-col items-start justify-start pt-6'>
         <h2 className='mb-4 text-lg font-bold uppercase text-black/75 text-center'>Education</h2>
         <div className='w-full mx-auto relative'>
         <ul>

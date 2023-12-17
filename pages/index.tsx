@@ -10,7 +10,9 @@ export default function Home() {
     <main className="flex flex-col h-screen overflow-hidden">
       <Header />
       <HomePage />
-      <Footer />
+      <div className='pt-8'>
+        <Footer/>
+    </div>
     </main>
   );
 }
