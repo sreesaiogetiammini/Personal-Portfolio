@@ -8,15 +8,14 @@ const Header = () => {
   return (
 
     <header className='px-6 py-4 lg:px-32 lg:py-8 font-medium flex flex-col lg:flex-row items-center justify-center lg:justify-between'>
-    <nav className='flex flex-col lg:flex-row lg:gap-x-12 lg:flex-1'>
+    <nav className='flex items-start  gap-x-6 mt-4 lg:mt-0'>
         <Link href='/' className='min-w-16 min-h-16 rounded flex items-center justify-center hover:underline underline-offset-2 mb-2 lg:mb-0'>Home</Link>
         <Link href='/about' className='min-w-16 min-h-16 rounded flex items-center justify-center hover:underline underline-offset-2 mb-2 lg:mb-0'>About</Link>
         <Link href='/projects' className='min-w-16 min-h-16 rounded flex items-center justify-center hover:underline underline-offset-2'>Projects</Link>
-        <div className='lg:mx-auto flex items-center justify-center mt-2 lg:mt-0'>
+    </nav>
+    <div className='lg:mx-auto flex items-center justify-center mt-2 lg:mt-0'>
         <Link href={'/'} className='w-16 h-16 bg-black text-white rounded-full text-2xl font-bold flex items-center justify-center hover:bg-fuchsia-600'>SS</Link>
     </div>
-    </nav>
-    
   
 
     <nav className='flex gap-x-6 mt-4 lg:mt-0'>
