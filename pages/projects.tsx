@@ -1,8 +1,7 @@
 import { Inter } from 'next/font/google'
-import Header from '../../components/header'
-import Footer from '../../components/footer';
-import HomePage from '../../components/homepage';
-import Project from '../../components/project';
+import Header from '../components/header'
+import Footer from '../components/footer'
+import Project from '../components/project'
 
 const inter = Inter({ subsets: ['latin'] })
 
