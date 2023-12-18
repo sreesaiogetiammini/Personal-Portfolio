@@ -46,7 +46,7 @@ const Project = () => {
             title="BlackJack Game With SFML(C++)"
             type="Fun Game"
             githubLink="https://github.com/sreesaiogetiammini/BlackJackGameUsingSFML"
-            imageUrl="/gamescreen.png"
+            imageUrl="/images/gamescreen.png"
             websitelink="https://github.com/sreesaiogetiammini/BlackJackGameUsingSFML"
             techstack="C++ | SFML "
             info="This collaborative game project was built in C++ SFML libraries to make interactive screens for the game. Players can play the game 
