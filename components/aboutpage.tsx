@@ -136,7 +136,7 @@ const AboutPage = () => {
                 place="National Institute of Technology, Arunachal Pradesh (NITAP) India"
                 time="Jun-2014 - Apr 2018"
                 gpa="8.66/10"
-                info="Relevant Coursework including Bio related subjects in Engineering prospective"
+                info="Relevant Coursework including Bio-Tech Subjects in Engineering prospective"
               />
             </ul>
           </div>
