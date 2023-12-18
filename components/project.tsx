@@ -41,7 +41,18 @@ const Project = () => {
             info="A professional portfolio website using Next JS,  and Styled-components. It has smooth page transitions, cool background effects, unique design and it is mobile responsive."
           />
         </div>
-
+        <div className="col-span-12 sm:col-span-6 lg:col-span-4 xl:col-span-3">
+          <ProjectDetails
+            title="BlackJack Game With SFML(C++)"
+            type="Fun Game"
+            githubLink="https://github.com/sreesaiogetiammini/BlackJackGameUsingSFML"
+            imageUrl="/gamescreen.png"
+            websitelink="https://github.com/sreesaiogetiammini/BlackJackGameUsingSFML"
+            techstack="C++ | SFML "
+            info="This collaborative game project was built in C++ SFML libraries to make interactive screens for the game. Players can play the game 
+                        with keyboard and mouse interactions."
+          />
+        </div>
         <div className="col-span-12 sm:col-span-6 lg:col-span-4 xl:col-span-3">
           <ProjectDetails
             title="A Simple portfolio Website"
@@ -51,20 +62,6 @@ const Project = () => {
             websitelink="https://web.physics.utah.edu/~deemyad/#"
             techstack="HTML | CSS | JS"
             info="A simple portfolio website was built using HTML , CSS and Javascript during my intial days into programming for the Professor from Department of Astronomy and Physics."
-          />
-        </div>
-
-        <div className="col-span-12 sm:col-span-6 lg:col-span-4 xl:col-span-3">
-          <ProjectDetails
-            title="BlackJack Game With SFML(C++)"
-            type="Fun Game"
-            githubLink="https://github.com/sreesaiogetiammini/BlackJackGameUsingSFML"
-            imageUrl="/gamescreen.png"
-            websitelink="https://github.com/sreesaiogetiammini/BlackJackGameUsingSFML"
-            techstack="C++ | SFML "
-            info=" This collaborative game project was built in C++ SFML libraries to make interactive screens for the game. Players can play the game 
-                        with keyboard and mouse interactions.
-                      "
           />
         </div>
       </div>
