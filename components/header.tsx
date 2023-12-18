@@ -14,7 +14,7 @@ const Header = () => {
         <Link href='/projects' className='min-w-16 min-h-16 rounded flex items-center justify-center hover:underline underline-offset-2'>Projects</Link>
     </nav>
     <div className='lg:mx-auto flex items-center justify-center mt-2 lg:mt-0'>
-        <Link href={'/'} className='w-16 h-16 bg-black text-white rounded-full text-2xl font-bold flex items-center justify-center hover:bg-yellow-300'>SS</Link>
+        <Link href={'/'} className='w-16 h-16 bg-black text-white rounded-full text-2xl font-bold flex items-center justify-center hover:bg-yellow-300 hover:text-black'>SS</Link>
     </div>
   
 
