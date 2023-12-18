@@ -18,7 +18,7 @@ const EducationDetails : React.FC<InputProps> = ({type,time,place,schoolLink,inf
               
                 <span className=' capitalize font-medium text-xl text-black/75 '>
 
-                    {time}| {gpa}
+                    {time} | {gpa}
 
                 </span>
                 <p className='font-medium w-full'>

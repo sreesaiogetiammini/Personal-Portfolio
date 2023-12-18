@@ -20,7 +20,7 @@ const ExperienceDetails : React.FC<InputProps>  = ({position,company,companylink
                     {time}| {address}
 
                 </span>
-                <p className='font-medium w-full'>
+                <p className='font-medium w-full pt-4'>
                     {work}
                 </p>
 
