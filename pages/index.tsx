@@ -8,12 +8,12 @@ const inter = Inter({ subsets: ["latin"] });
 export default function Home() {
   return (
     <main className="flex flex-col h-screen lg:overflow-hidden">
-       <Analytics/>
-      <Header />
-      <HomePage />
+      <Analytics/>
+      <Header/>
+      <AboutPage/>
       <div className='pt-8'>
-        <Footer/>
-    </div>
+          <Footer/>
+      </div>
     </main>
   );
 }

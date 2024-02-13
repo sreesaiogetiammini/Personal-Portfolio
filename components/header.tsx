@@ -10,7 +10,7 @@ const Header = () => {
     <header className='px-6 py-4 lg:px-32 lg:py-8 font-medium flex flex-col lg:flex-row items-center justify-center lg:justify-between'>
     <nav className='flex items-start  gap-x-6 mt-4 lg:mt-0'>
         <Link href='/' className='min-w-16 min-h-16 rounded flex items-center justify-center hover:underline underline-offset-2 mb-2 lg:mb-0'>Home</Link>
-        <Link href='/about' className='min-w-16 min-h-16 rounded flex items-center justify-center hover:underline underline-offset-2 mb-2 lg:mb-0'>About</Link>
+        {/* <Link href='/about' className='min-w-16 min-h-16 rounded flex items-center justify-center hover:underline underline-offset-2 mb-2 lg:mb-0'>About</Link> */}
         <Link href='/projects' className='min-w-16 min-h-16 rounded flex items-center justify-center hover:underline underline-offset-2'>Projects</Link>
     </nav>
     <div className='lg:mx-auto flex items-center justify-center mt-2 lg:mt-0'>
