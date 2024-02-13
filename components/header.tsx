@@ -14,12 +14,20 @@ const Header = () => {
         >
           About
         </Link>
-        {/* <Link href='/about' className='min-w-16 min-h-16 rounded flex items-center justify-center hover:underline underline-offset-2 mb-2 lg:mb-0'>About</Link> */}
+
         <Link
           href="/projects"
           className="min-w-16 min-h-16 rounded flex items-center justify-center hover:underline underline-offset-2"
         >
           Projects
+        </Link>
+
+        <Link
+          href="/SreeSai_SDE.pdf"
+          target="_blank"
+          className="bg-black text-white flex items-center font-bold p-2.5 px-6 rounded mt-2 lg:mt-0 lg:ml-4 hover:bg-white hover:text-black hover:border-solid hover:border hover:border-black"
+        >
+          Resume
         </Link>
       </nav>
       <div className="lg:mx-auto flex items-center justify-center mt-2 lg:mt-0">
