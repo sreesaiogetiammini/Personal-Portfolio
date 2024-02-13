@@ -25,7 +25,7 @@ const Header = () => {
         <Link
           href="/SreeSai_SDE.pdf"
           target="_blank"
-          className="bg-black text-white flex items-center font-bold p-2.5 px-6 rounded mt-2 lg:mt-0 lg:ml-4 hover:bg-white hover:text-black hover:border-solid hover:border hover:border-black"
+          className="min-w-16 min-h-16 rounded flex items-center justify-center hover:underline underline-offset-2"
         >
           Resume
         </Link>
