@@ -14,14 +14,14 @@ const skills = [
   "MySQL",
   "LINQ",
   "MongoDB",
-  "Selenium Web Driver (Java)",
-  "REST Assured API Automation (Java)",
-  "Jmeter",
-  "Appium",
   "HTML",
   "CSS",
   "Next.JS",
   "SFML (C++)",
+  "Selenium Web Driver (Java)",
+  "REST Assured API Automation (Java)",
+  "Jmeter",
+  "Appium",
   "GitHub",
   "JIRA",
   "BitBucket",
@@ -98,7 +98,7 @@ const AboutPage = () => {
           <div className="w-full mx-auto relative">
             <ul>
               <ExperienceDetails
-                position="Software Quality Assurance Engineer"
+                position="Software Developer in Test"
                 company="Turvo India Private Limited"
                 companylink="https://turvo.com"
                 address="Hyderabad, India"
@@ -106,7 +106,7 @@ const AboutPage = () => {
                 work="Worked on the team responsible for Quality Assurance of developed products in various environments, handled both Manual and Automation and actively contributed to the release life cycle. Served as a Subject Matter Expert (SME), actively contributing to feature enhancements and providing KT to support developers"
               />
               <ExperienceDetails
-                position="Software Automation Test Engineer"
+                position="Software Engineer(QA Automation Engineer)"
                 company="Infosys Private Limited"
                 companylink="https://www.infosys.com"
                 address="Hyderabad, India"
@@ -127,16 +127,16 @@ const AboutPage = () => {
                 schoolLink="https://msd.utah.edu"
                 place="University of Utah (UOU)"
                 time="Aug-2022 - Dec 2023"
-                gpa="3.96/4"
-                info="Relevant Coursework  Including Algorithms, Operating Systems, Computer Networking, Database Management Systems, Data Visualization & Analytics, Android Programming"
+                gpa="3.97/4"
+                info="Course Work :: Data-Structures & Algorithms, Computer Operating Systems, Computer Networking, Database Management Systems, Data Visualization & Analytics, Android Programming"
               />
               <EducationDetails
                 type="Bachelors of Technology in Bio-Technology (BTech)"
                 schoolLink="https://www.nitap.ac.in"
                 place="National Institute of Technology, Arunachal Pradesh (NITAP) India"
                 time="Jun-2014 - Apr 2018"
-                gpa="8.66/10"
-                info="Relevant Coursework including Bio-Tech Subjects in Engineering prospective"
+                gpa="8.66/10 | Gold Medalist"
+                info="Coursework includes Bio-Tech Subjects in Engineering prospective"
               />
             </ul>
           </div>
