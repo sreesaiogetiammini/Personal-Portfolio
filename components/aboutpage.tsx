@@ -20,6 +20,8 @@ const skills = [
   "SFML (C++)",
   "Selenium Web Driver (Java)",
   "REST Assured API Automation (Java)",
+  "Cypress.io",
+  "e2e_Component based testing",
   "Jmeter",
   "Appium",
   "GitHub",
@@ -55,7 +57,7 @@ const AboutPage = () => {
             Life Story
           </h2>
           <p className="font-medium text-justify whitespace-pre-line">
-            Hi, I'm Sree Sai Ogeti , I have 4 years of dedicated experience in
+            Hi, I'm Sree Sai Ogeti , I have 6 years of dedicated experience in
             Software Quality Assurance expertise in ensuring software
             reliability and functionality. My journey has been marked by
             mastering testing methodologies, including manual and automated
@@ -97,6 +99,14 @@ const AboutPage = () => {
           </h2>
           <div className="w-full mx-auto relative">
             <ul>
+            <ExperienceDetails
+                position="Computer QA Assitant"
+                company="University of Utah"
+                companylink="https://sudo.utah.edu/teams.php"
+                address="Salt Lake City, US"
+                time="Nov-2022 - May 2024"
+                work="I developed end-to-end (e2e) automated test scripts using Cypress for React components within university website portals, ensuring software quality standards were met throughout the development lifecycle. This involved analyzing test results, identifying defects, and collaborating with cross-functional teams to troubleshoot issues. Additionally, I assisted faculty by preparing and delivering lectures, leading discussion sections, and providing one-on-one support to students. Moreover, I utilized continuous integration/continuous deployment (CI/CD) pipelines to integrate automated tests, enabling timely feedback and facilitating rapid iterations in the software development process."
+              />
               <ExperienceDetails
                 position="Software Developer in Test"
                 company="Turvo India Private Limited"
