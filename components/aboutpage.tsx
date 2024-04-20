@@ -21,7 +21,7 @@ const skills = [
   "Selenium Web Driver (Java)",
   "REST Assured API Automation (Java)",
   "Cypress.io",
-  "e2e_Component based testing",
+  "E2E Component based testing",
   "Jmeter",
   "Appium",
   "GitHub",
