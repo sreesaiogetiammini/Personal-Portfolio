@@ -4,6 +4,7 @@ import ImageSlider from "./imageSlider";
 import SkillsGrid from "./skillset";
 import ExperienceDetails from "./experiencedetails";
 import EducationDetails from "./educationdetails";
+import Certificationdetails from "./certificationdetails";
 
 const skills = [
   "Java",
@@ -12,12 +13,10 @@ const skills = [
   "C++",
   "Kotlin",
   "MySQL",
-  "LINQ",
   "MongoDB",
   "HTML",
   "CSS",
   "Next.JS",
-  "SFML (C++)",
   "Selenium Web Driver (Java)",
   "REST Assured API Automation (Java)",
   "Cypress.io",
@@ -148,6 +147,27 @@ const AboutPage = () => {
                 gpa="8.66/10 | Gold Medalist"
                 info="Coursework includes Bio-Tech Subjects in Engineering prospective"
               />
+            </ul>
+          </div>
+          <h2 className="mb-4 mt-4 text-lg font-bold uppercase text-black/75 text-center">
+            Certifications
+          </h2>
+          <div className="w-full mx-auto relative">
+            <ul>
+              <Certificationdetails
+                name="Software Development Programming Certificate"
+                schoolLink="https://msd.utah.edu"
+                place="University of Utah (UOU)"
+                time="Aug-2023"
+                info=""
+              />
+              <Certificationdetails
+                name="Software Development Systems & Data Certificate"
+                schoolLink="https://msd.utah.edu"
+                place="University of Utah (UOU)"
+                time="Dec-2023"
+                info=""
+                />
             </ul>
           </div>
         </div>
