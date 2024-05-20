@@ -8,7 +8,7 @@ interface InputProps {
     address: string;
     work:string
   }
-// Hello from origin
+// Hello from origin file again
 const ExperienceDetails : React.FC<InputProps>  = ({position,company,companylink,time,address,work}) => {
   return (
     <li className='my-8 first:mt-0 last:mb-0 w-0.6 mx-auto flex flex-col items-center justify-between'>
